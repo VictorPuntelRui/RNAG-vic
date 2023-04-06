@@ -25,7 +25,8 @@ Para o funcionamento deste, procuramos cobrir todo o universo de possibiliddes d
 #### Experimento A.04 - Caixas não-binarias 
 
 #### Experimento A.05 - Descobrindo a senha
+Ja temos a senha - conseguiu descobrir - nao para ate achar a senha
 
 #### Experimento A.06 - O Caixeiro viajante
-
+se eu nao sei a resposta, entao usa criterio parada - NP, nao polinomial - 
 #### Experimento A.07 - Aplicando restrições
