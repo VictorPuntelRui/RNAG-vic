@@ -50,7 +50,7 @@ def fitness_hbl (populacao, equacao):
     for individuo in populacao:
         x = individuo[0]
         y = individuo[1]
-        z= equacao(x, y)
+        z = equacao(x, y)
         fitness.append(z)
     return fitness
     
