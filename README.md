@@ -14,3 +14,18 @@ Lembretes:
 + Todos os notebooks devem funcionar corretamente seguindo a ordem de cima para baixo. Evite rodar células fora da ordem para evitar problemas de continuidade no seu experimento (reordene as células caso seja necessário)
 + Certifique-se que todas as células do seus notebooks foram executadas! Afinal, como você vai realizar seu experimento sem executar as células?
 + Reescreva os README do seu repositório para guiar o leitor
+
+# Guia ao leitor, aventureiro ou desbravador do presente Repositório:
+
+Aqui você encontrará diversos notebooks de experimentos realizados sobre Algoritmos Genéticos e Redes Neurais.
+Com a finalidade de aprender como funciona esse incrível mundo da computação, foram criados estes notebooks que aumentam sua complexidade gradativamente, para, pouco a pouco, serem introduzidos novos conceitos e problemas para a evolução do aprendizado.
+
+Logo agora nesta tela inicial em que você está lendo, temos as pastas de "AlgoritmosGeneticos" e "RedesNeurais" onde serão encontrados os noteboks com os experimentos(problemas que utilizamos os métodos aprendidos aqui para tentar soluciona-los).
+
+## Afinal, o que são os Algoritmos Genéticos e Redes Neurais?
+### Algoritmos Genéticos:
+[inserir explicação superficial sobre Algoritmos Genéticos (Gerar individuos - Selecionar os Melhores - Descendentes + prob etc)]
+### Redes Neurais:
+[inserir explicação superficial sobre Redes Neurais (Entrada e Saída - Semelhança com Rain Forest)]
+
+Caso tenha interesse em saber mais aprofundadamente sobre estes assuntos, na pasta de cada um destes tópico tem uma explicação mais aprofundada sobre os conceitos e funcionamento.
