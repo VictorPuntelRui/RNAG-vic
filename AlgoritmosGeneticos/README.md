@@ -3,6 +3,18 @@
 Nesta pasta você encontrará os experimentos realizados sobre Algoritmos Genéticos e um breve esclarescimento sobre o método.
 
 ## Sobre os Algoritmos Genéticos
+O funcionamento dos algoritmos genéticos é baseado na evolução de individuos de populações ao longo do tempo, da mesma forma como ocorre na natureza, como descrito por Charles Darwin, onde os indivíduos que se adaptam melhor ao ambiente, são os que mais tem chance de gerar descentendes.
+Para construir a base do nosso algoritmo, vamos usar as principais componetnes; gene; individuo; população; objetivo; seleção; mutação; cruzamento.
+
+Gene: Valores que vão formar o individuo. 
+Da mesma forma que temos nosso DNA composto de bases nitrogenadas, A, T, C e G, no algoritmo genético utilizamos do mesmo conceito, porém mudando as letras por valores que variam de acordo com nosso problema. Para compreender melhor como funciona, visite o Experimento A.01, onde os genes são valores de 0 e 1 para um problema de caixas binárias
+
+Indivíduo:
+População:
+Objetivo:
+Seleção:
+Mutação:
+Cruzamento:
 
 ## Experimentos
 Aqui voce encontrará os experimentos realizados e de grosso modo, o intuíto de cada um deles. Tais experimentos vão estar nomeados como "Experimento A.0X - Nome do experimento"
