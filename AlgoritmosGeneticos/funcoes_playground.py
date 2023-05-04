@@ -1,3 +1,5 @@
+import random 
+
 #### EQUACAO ###################################
 def equacao (x, y):
     return (x[0]**2 + x[1] - 11)**2 + (x[0] + x[1]**2 - 7)**2
@@ -17,7 +19,7 @@ def individuo_hbl(n_genes, valor_max_hbl):
     '''
     individuo = []
     for i in range(n_genes):
-        gene = gene_hbl(valor_max_hbl)
+        gene = genes_hbl(valor_max_hbl)
         individuo.append(gene)
     return individuo
 
@@ -89,7 +91,8 @@ def selecao_torneio_min(populacao, fitness, tamanho_torneio=3):
                 minimo_fitness = fit
 
         selecionados.append(selecionado)
-        
+    return selecionados
+
 ##### CRUZAMENTO ###################################
 def cruzamento_ponto_simples(pai, mae):
     """Operador de cruzamento de ponto simples.
@@ -108,7 +111,7 @@ def cruzamento_ponto_simples(pai, mae):
     return filho1, filho2
 
 ##### MUTAÇÃO ###################################
-def mutacao_cb(individuo):
+def mutacao_cordenada(individuo, valor_max_hbl):
     '''realiza a mutação de um gene no problema das caixas binarias
     arg:
         individuo: uma lista representando um individuo no problema das caixas binarias
@@ -116,7 +119,7 @@ def mutacao_cb(individuo):
     um individuo com um gene mutado '''
     
     gene_a_ser_mutado = random.randint(0,len(individuo)-1)
-    individuo[gene_a_ser_mutado] = gene_cb()
+    individuo[gene_a_ser_mutado] = genes_hbl(valor_max_hbl)
     
     return individuo
 
