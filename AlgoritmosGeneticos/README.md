@@ -11,7 +11,20 @@ Valores que vão formar o individuo.
 Da mesma forma que temos nosso DNA composto de bases nitrogenadas, A, T, C e G, no algoritmo genético utilizamos do mesmo conceito, porém mudando as letras por valores que variam de acordo com nosso problema. Para compreender melhor como funciona, visite o Experimento A.01 - Busca Aleatória, onde os genes são valores de 0 e 1 para um problema de caixas binárias
 
 ##### Indivíduo:
+Os indivíduos são os nossos pacotes de dados por assim dizer, o conjunto de dados que vão servir para a solução de meu problema.<dt>
+Supondo que queremos gerar indivíduos com coordenadas de uma função, para achar um ponto em um plano cartesiano (podemos pensar em achar a coordenada de um barco no batalha naval), então temos por exemplo, indivíduos com com genes que representam os números na coordenada X e Y:
+- indivíduo 1 = 3,2
+- indivíduo 2 = 10,4
+- indivíduo 3 = 2,8
+- indivíduo 4 = 4,7
+Ou seja, cada gene é um número e, ao juntar dois genes, temos um indivíduo que, neste caso, é uma coordenada.
+
 ##### População:
+A população por sua vez, é o conjunto de indivíduos.
+<dt>
+Assim como na natureza, as mudanças ocorrem nos indivíduos dentro de uma população e, esta população muda conforme o tempo. Por isso é necessário a criação deste operador População.
+Quando usamos os alrogitmos genéticos, estamos utilizando a estatística como base. Ao aumentar o número de indivíduos gerados, estamos trazendo as propriedades da aleatoriedade e da probabilística a um patamar acima, visto que, quanto mais indivíduos criados, maior a variação dentro de nosso universo amostral.<dt>
+
 ##### Objetivo:
 ##### Seleção:
 ##### Mutação:
