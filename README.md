@@ -25,7 +25,15 @@ Logo agora nesta tela inicial em que você está lendo, temos as pastas de "Algo
 ## Afinal, o que são os Algoritmos Genéticos e Redes Neurais?
 ### Algoritmos Genéticos:
 [inserir explicação superficial sobre Algoritmos Genéticos (Gerar individuos - Selecionar os Melhores - Descendentes + prob etc)]
-### Redes Neurais:
-[inserir explicação superficial sobre Redes Neurais (Entrada e Saída - Semelhança com Rain Forest)]
+De forma geral, o algorítmo genético se baseia no mesmo conceito da seleção natural, presente na biologia.
+Temos a geração de nossa população que, ao decorrer do código, sofrerá mutações e seleções que priorizam os indivíduos que mais atendem as nossas condições.
+Um exemplo que será abordado na pasta que contém os experimentos realizados, é encontrar por exemplo, a melhor combinação de itens de valor que cabem em uma mochila.
+Neste caso por exemplo, vamos gerar individuos que contém características e, ao longo do tempo e do código, vao ser selecionados para nos retornar os melhores indivíduos, os mais adaptados para aquela situação específica, assim como na seleção natural proposta por Charles Darwin.
+Para entender de forma mais aprofundada, veja o Read-me da pasta de <a href = "https://github.com/VictorPuntelRui/RNAG-vic/tree/main/AlgoritmosGeneticos" >Algoritmos Genéticos</a><br>
 
-Caso tenha interesse em saber mais aprofundadamente sobre estes assuntos, na pasta de cada um destes tópico tem uma explicação mais aprofundada sobre os conceitos e funcionamento.
+### Redes Neurais:
+
+As redes neurais são bem semelhantes com grafos. Entretanto temos características a mais que são primordiais para o funcionamento dela.
+De forma resumida, as redes neurais tem nós de folha e nós de raíz. São nestes elementos que ocorrem o input e o output de informações (que são submetidas a um tratamento e direcionamento no interior de nossa rede - este local é chamado de camada oculta).
+Ou seja, temos uma rede que recebe dados, estes dados passam por um tratamento e, após isso, são direcionados para os nós de saída, folhas.
+Para entender de forma mais aprofundada, veja o Read-me da pasta de <a href"https://github.com/VictorPuntelRui/RNAG-vic/tree/main/RedesNeurais">Redes Neurais</a><br>
