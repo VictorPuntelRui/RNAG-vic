@@ -6,11 +6,11 @@ Nesta pasta você encontrará os experimentos realizados sobre Algoritmos Genét
 O funcionamento dos algoritmos genéticos é baseado na evolução de individuos de populações ao longo do tempo, da mesma forma como ocorre na natureza, como descrito por Charles Darwin, onde os indivíduos que se adaptam melhor ao ambiente, são os que mais tem chance de gerar descentendes.
 Para construir a base do nosso algoritmo, vamos usar as principais componetnes; gene; individuo; população; objetivo; seleção; mutação; cruzamento.
 
-##### Gene:
+#### Gene:
 Valores que vão formar o individuo.   
 Da mesma forma que temos nosso DNA composto de bases nitrogenadas, A, T, C e G, no algoritmo genético utilizamos do mesmo conceito, porém mudando as letras por valores que variam de acordo com nosso problema. Para compreender melhor como funciona, visite o Experimento A.01 - Busca Aleatória, onde os genes são valores de 0 e 1 para um problema de caixas binárias
 
-##### Indivíduo:
+#### Indivíduo:
 Os indivíduos são os nossos pacotes de dados por assim dizer, o conjunto de dados que vão servir para a solução de meu problema.<dt>
 Supondo que queremos gerar indivíduos com coordenadas de uma função, para achar um ponto em um plano cartesiano (podemos pensar em achar a coordenada de um barco no batalha naval), então temos por exemplo, indivíduos com com genes que representam os números na coordenada X e Y:
 - indivíduo 1 = 3,2
@@ -25,20 +25,20 @@ A população por sua vez, é o conjunto de indivíduos.
 Assim como na natureza, as mudanças ocorrem nos indivíduos dentro de uma população e, esta população muda conforme o tempo. Por isso é necessário a criação deste operador População.
 Quando usamos os alrogitmos genéticos, estamos utilizando a estatística como base. Ao aumentar o número de indivíduos gerados, estamos trazendo as propriedades da aleatoriedade e da probabilística a um patamar acima, visto que, quanto mais indivíduos criados, maior a variação dentro de nosso universo amostral.<dt>
 
-##### Objetivo:
+#### Objetivo:
 O operador objetivo é basicamente o que queremos que nosso indivíduo tenha que irá agregar valor a ele. <dt>
 Supondo que queremos o indivíduo que tenha o número mais alto. Nosso objetivo neste caso é o maior valor possível, fazendo com que o valor dos nossos indivíduos com o número mais alto, tenha um maior peso. <dt>
 Comumente, também chamamos este ato de classificar o valor dos indivíduos de "Fitness"
-##### Seleção:
+#### Seleção:
 Selecionamos os indivíduos que atendam melhor ao nosso problema.<dt>
 Em nossa população, teremos vários valores distintos relacionados a cada um dos indivíduos. Com a seleção, pegamos os que melhor atendem aos requisitos determinados em "Objetivo" e os selecionamos para passar as características para a próxima geração. <dt>
 Conforme o tempo vai passando, as próximas gerações vao ser cada vez melhores, visto que tem o seu material genético (os genes), com pesos maiores, se aproximando de nossa solução.
-##### Mutação:
+#### Mutação:
 Para acrescentar ainda mais o fator de estatística e aleatoriedade em nosso algorítmo, a mutação é inserida.
 <dt>A mutação é uma alteração que ocorre em um gene dentro de um indivíduo (por ex: indiv1 = ABCD, indivi mutado será ACBD).
 <dt>É preciso se atentar bastante neste operador pois, se aumentarmos muito a sua taxa, pode ter um efeito negativo em nosso algorítmo, e se for muito baixo, nao surtirá quase nenhum efeito. É preciso acertar a dose certa de radiação XD
     
-##### Cruzamento:
+#### Cruzamento:
 O cruzamento atua após a seleção, quando vamos criar a próxima geração.
 <dt>Ao cruzarmos os indivíduos que são os mais adaptados para a situação específica, podemos aumentar a chance de ter um indivíduo mais adaptado ainda. juntando ao fato de que a próxima geração inteira será gerada a partir dos melhores indivíduos da anterior, temos uma melhoria constante.
 
