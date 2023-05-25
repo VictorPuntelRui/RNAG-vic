@@ -26,9 +26,21 @@ Assim como na natureza, as mudanças ocorrem nos indivíduos dentro de uma popul
 Quando usamos os alrogitmos genéticos, estamos utilizando a estatística como base. Ao aumentar o número de indivíduos gerados, estamos trazendo as propriedades da aleatoriedade e da probabilística a um patamar acima, visto que, quanto mais indivíduos criados, maior a variação dentro de nosso universo amostral.<dt>
 
 ##### Objetivo:
+O operador objetivo é basicamente o que queremos que nosso indivíduo tenha que irá agregar valor a ele. <dt>
+Supondo que queremos o indivíduo que tenha o número mais alto. Nosso objetivo neste caso é o maior valor possível, fazendo com que o valor dos nossos indivíduos com o número mais alto, tenha um maior peso. <dt>
+Comumente, também chamamos este ato de classificar o valor dos indivíduos de "Fitness"
 ##### Seleção:
+Selecionamos os indivíduos que atendam melhor ao nosso problema.<dt>
+Em nossa população, teremos vários valores distintos relacionados a cada um dos indivíduos. Com a seleção, pegamos os que melhor atendem aos requisitos determinados em "Objetivo" e os selecionamos para passar as características para a próxima geração. <dt>
+Conforme o tempo vai passando, as próximas gerações vao ser cada vez melhores, visto que tem o seu material genético (os genes), com pesos maiores, se aproximando de nossa solução.
 ##### Mutação:
+Para acrescentar ainda mais o fator de estatística e aleatoriedade em nosso algorítmo, a mutação é inserida.
+<dt>A mutação é uma alteração que ocorre em um gene dentro de um indivíduo (por ex: indiv1 = ABCD, indivi mutado será ACBD).
+<dt>É preciso se atentar bastante neste operador pois, se aumentarmos muito a sua taxa, pode ter um efeito negativo em nosso algorítmo, e se for muito baixo, nao surtirá quase nenhum efeito. É preciso acertar a dose certa de radiação XD
+    
 ##### Cruzamento:
+O cruzamento atua após a seleção, quando vamos criar a próxima geração.
+<dt>Ao cruzarmos os indivíduos que são os mais adaptados para a situação específica, podemos aumentar a chance de ter um indivíduo mais adaptado ainda. juntando ao fato de que a próxima geração inteira será gerada a partir dos melhores indivíduos da anterior, temos uma melhoria constante.
 
 ## Experimentos
 Aqui voce encontrará os experimentos realizados e de grosso modo, o intuíto de cada um deles. Tais experimentos vão estar nomeados como "Experimento A.0X - Nome do experimento"
