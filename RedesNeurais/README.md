@@ -22,9 +22,12 @@ O que fazemos aqui, basicamente é simular em pequena escala, conexões neurais,
 
 **Camada de entrada** - Chamamos de **RAÍZES**
 A camada de entrada da nossa rede, chamamos de raízes, são as que células, neurônios, que vão receber a informação de um meio externo. Basciamente são os pontos de entrada da nossa rede, os inputs.
+A camada de entrada é onde a informação chega até a nossa rede, como um Input de informações e variáveis. <dt>
+    Nesta camada (também chamada de raízes), nenhuma operação é realizada no quesito de processamento de dados em si, isso só sera feito na próxima camada.
 
 **Camada oculta**
-Na camada oculta, que é a camada (ou AS camadas, pois pode haver mais de uma), é onde ocorre todo o processo 
+Agora sim estamos processando os dados. Está e a camada intermediária, entre a entrada e saída.<dt>
+    Aqui ocorrem todos os processsos do tratamento das variáveis e dados a partir de uma complexa rede de comunicação entre os nossos neurônios, ou se preferir, entre os nós de nossos grafos. A informação que circula aqui percorre caminhos que vão culminar na camada de saída.
 
 **Camada de saída** - Chamamos de **FOLHAS**
 Outputs, uma camada que nos irá retornar valores que foram gerados nos caminhos internos da camada oculta, também chamado de Folhas

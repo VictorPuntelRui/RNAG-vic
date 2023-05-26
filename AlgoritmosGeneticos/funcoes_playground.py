@@ -62,11 +62,11 @@ def fitness_hbl (populacao, equacao):
         fitness.append(z)
     return fitness
     
-##### TORNEIO MINIMO ###################################
-def selecao_torneio_min(populacao, fitness, tamanho_torneio=3):
+##### TORNEIO MAXIMO ###################################
+def selecao_torneio_max(populacao, fitness, tamanho_torneio=3):
     """Faz a seleção de uma população usando torneio.
     Nota: da forma que está implementada, só funciona em problemas de
-    minimização.
+    maximização.
     Args:
       populacao: população do problema
       fitness: lista com os valores de fitness dos indivíduos
@@ -85,16 +85,16 @@ def selecao_torneio_min(populacao, fitness, tamanho_torneio=3):
         combatentes = random.sample(par_populacao_fitness, tamanho_torneio)
 
         # é assim que se escreve infinito em python
-        minimo_fitness = float("inf")
+        maximo_fitness = float("inf")*(-1)
 
         for par_individuo_fitness in combatentes:
             individuo = par_individuo_fitness[0]
             fit = par_individuo_fitness[1]
 
             # queremos o individuo de menor fitness
-            if fit < minimo_fitness:
+            if fit > maximo_fitness:
                 selecionado = individuo
-                minimo_fitness = fit
+                maximo_fitness = fit
 
         selecionados.append(selecionado)
     return selecionados
