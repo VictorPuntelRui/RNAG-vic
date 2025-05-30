@@ -1,9 +1,12 @@
 # Guia ao leitor, aventureiro ou desbravador do presente Repositório:
 
 Aqui você encontrará diversos notebooks de experimentos realizados sobre Algoritmos Genéticos e Redes Neurais.
-Com a finalidade de aprender como funciona esse incrível mundo da computação, foram criados estes notebooks que aumentam sua complexidade gradativamente, para, pouco a pouco, serem introduzidos novos conceitos e problemas para a evolução do aprendizado.
+Estes notebooks foram desenvolvidos em 2023 durante uma disciplina na graduação de Ciência e Tecnologia na Ilum, escola de ciências.
 
-Logo agora nesta tela inicial em que você está lendo, temos as pastas de "AlgoritmosGeneticos" e "RedesNeurais" onde serão encontrados os noteboks com os experimentos(problemas que utilizamos os métodos aprendidos aqui para tentar soluciona-los).
+Este repositório foi criado com a finalidade de aprender como funcionam estes temas relacionados a computação. Os notebooks que aumentam sua complexidade gradativamente, para, pouco a pouco, novos conceitos e problemas serem introduzidos e assim, auxiliar no aprendizado.
+
+
+Logo agora nesta tela inicial em que você está lendo, temos as pastas de "AlgoritmosGeneticos" e "RedesNeurais" onde serão encontrados os noteboks com os experimentos (problemas que utilizamos os métodos aprendidos aqui para tentar soluciona-los).
 
 ## Afinal, o que são os Algoritmos Genéticos e Redes Neurais?
 ### Algoritmos Genéticos:
